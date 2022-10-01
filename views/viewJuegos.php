@@ -13,6 +13,7 @@ session_start();
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel=StyleSheet href="../css/fondopagina.css" type="text/css">
 </head>
 
 <body>
@@ -23,10 +24,10 @@ session_start();
     </header>
 
     <main>
-        <div class="container bg-light mt-4 mb-4">
+        <div class="container bg-light mt-4 mb-4 ">
             <p class="h3  text-center text-white  bg-dark mt-1 mb-1">vitrina</p>
             <div class="row justify-content-center">
-                <div class="card-deck ">
+                <div class="card-deck " style="text-align: justify;">
                     <?php
                     include '../controller/juegos.php';
                     ?>
