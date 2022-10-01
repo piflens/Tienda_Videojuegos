@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto ">
                 <li class="nav-item">
-                    <a class="nav-link" href="/Tienda_Videojuegos/views/viewProductos.php">Juegos</a>
+                    <a class="nav-link" href="/Tienda_Videojuegos/views/viewJuegos.php">Juegos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/Tienda_Videojuegos/views/viewAccesorios.php">Accesorios</a>
@@ -22,7 +22,7 @@
                         Mi cuenta
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/Tienda_Videojuegos/views/viewLogin.php">Mis datos</a>
+                        <a class="dropdown-item" href="/Tienda_Videojuegos/controller/controlAcceso.php">Mis datos</a>
                         <a class="dropdown-item" href="/Tienda_Videojuegos/controller/logout.php">Cerrar sesión</a>
                     </div>
                 </li>
